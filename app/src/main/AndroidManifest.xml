@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.scamsmart">
+
+    //I added permission to access calls
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ScamSMART">
+        <activity android:name=".ui.textinfo_activity"></activity>
+        <activity android:name=".ui.callLog_activity" />
+        <activity android:name=".ui.instruction_activity" />
+        <activity android:name=".ui.recent_activity" />
+        <activity android:name=".ui.callinfo_activity" />
+        <activity android:name=".ui.report_activity" />
+        <activity android:name=".ui.infomenu_activity" />
+        <activity android:name=".ui.block_activity" />
+        <activity android:name=".ui.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

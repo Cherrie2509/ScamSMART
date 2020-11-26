@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.textinfo_activity">
+
+    <TextView
+        android:id="@+id/tvHeading5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="464dp"
+        android:text="@string/scamsmart"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.204" />
+
+    <TextView
+        android:id="@+id/tvHeading6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="464dp"
+        android:text="Text Scams"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvHeading5"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tvPhoneinfoContent"
+        android:layout_width="320dp"
+        android:layout_height="497dp"
+        android:layout_marginTop="24dp"
+        android:scrollbars = "vertical"
+        android:text="  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur lobortis justo sit amet ullamcorper. Donec lorem quam, gravida sed porta sed, consequat in leo. Proin varius diam vel consectetur bibendum. Cras ac sem varius turpis aliquam euismod. Quisque finibus interdum hendrerit. Vestibulum ullamcorper maximus lorem, eu ornare sapien elementum nec. Quisque sit amet augue posuere, molestie nunc sed, elementum metus. Nullam faucibus velit enim, vitae sodales eros imperdiet vitae. Maecenas ultricies arcu vitae nisl ultricies, eget hendrerit sem tincidunt. Quisque ut convallis lacus. Praesent a felis mi. Nullam quam justo, tincidunt malesuada dolor ac, posuere lacinia nibh.  Fusce volutpat tempus velit vitae mollis. In pharetra ligula nulla, quis rhoncus eros ornare interdum. Vivamus est turpis, varius convallis efficitur a, aliquet a sem. Morbi sed ornare enim, sed commodo dolor. Vivamus consectetur purus et nulla efficitur consectetur. Sed vestibulum sem ut pretium elementum. Vivamus tincidunt vel sapien commodo porttitor. Donec convallis placerat eleifend. Ut nisi quam, molestie eu tincidunt nec, mollis vitae elit. Praesent vel eros urna. Etiam scelerisque est nec elit congue pretium. Duis turpis nisl, egestas sed tempus nec, tincidunt id elit. Maecenas at viverra felis. Nulla facilisi. Nulla vitae molestie justo. Nullam id congue ante, nec pulvinar augue.  Integer ullamcorper sollicitudin ex, at posuere odio molestie in. Suspendisse vitae ante justo. Cras pellentesque et erat ac aliquet. Donec maximus placerat magna, vitae fermentum urna tristique in. Morbi vel tempus sem. Phasellus vel eleifend est. Vestibulum pellentesque tempor turpis, et volutpat ex tincidunt et. Nunc nisi odio, suscipit in cursus ut, tristique sit amet purus. Nam imperdiet lacus condimentum risus porttitor convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer porttitor eget eros et dignissim. Ut gravida viverra tellus eget iaculis. In lacus diam, efficitur at iaculis ornare, gravida sed nibh. Maecenas vitae tempus libero. Integer vehicula vel mauris et hendrerit. "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvHeading6" />
+</androidx.constraintlayout.widget.ConstraintLayout>

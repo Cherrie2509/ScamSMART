@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ScamSMART</string>
+    <string name="scamsmart">ScamSMART</string>
+    <string name="report_a_scam">Report A Scam</string>
+    <string name="block_number">Block Number</string>
+    <string name="what_to_know">What to Know</string>
+    <string name="view_recent_calls">View Recent Calls</string>
+    <string name="coming_soon">* Coming Soon *</string>
+    <string name="block_selected_number">Block Selected Number</string>
+    <string name="instructional_screenshots_coming_soon">Instructional Screenshots Coming Soon</string>
+    <string name="tell_me_about_phone_scams">Tell me About Phone Scams</string>
+    <string name="tell_me_about_text_scams">Tell me About Text Scams</string>
+    <string name="how_do_they_get_my_number">How do They get my Number?</string>
+    <string name="how_to_report_a_scam">How to Report A Scam</string>
+    <string name="enter_phone_no">Enter Phone No.</string>
+    <string name="description">Description</string>
+    <string name="report_number">Report Number</string>
+    <string name="did_they_claim_to_be_from_a_certain_company_did_they_ask_for_card_details">Did they claim to be from a certain Company? Did they ask for card details?</string>
+    <string name="take_quiz">Take Quiz</string>
+    <string name="view_recent_scams">View Recent Scams</string>
+</resources>
